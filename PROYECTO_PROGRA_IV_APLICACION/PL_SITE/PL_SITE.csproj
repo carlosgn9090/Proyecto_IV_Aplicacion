@@ -67,10 +67,64 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bat\rd-mailform.php" />
-    <Content Include="bat\rd-search.php" />
-    <Content Include="bat\reCaptcha.php" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\fonts.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\fl-bigmug-line.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\lg.svg" />
+    <Content Include="fonts\materialdesignicons-webfont.svg" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\bg-image-1.jpg" />
+    <Content Include="images\bg-image-2.jpg" />
+    <Content Include="images\bg-pattern-boxed.png" />
+    <Content Include="images\classic-blog-1-570x380.jpg" />
+    <Content Include="images\classic-blog-2-570x380.jpg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\footer-gallery-1-original.jpg" />
+    <Content Include="images\footer-gallery-2-original.jpg" />
+    <Content Include="images\footer-gallery-3-original.jpg" />
+    <Content Include="images\footer-gallery-4-original.jpg" />
+    <Content Include="images\footer-gallery-5-original.jpg" />
+    <Content Include="images\footer-gallery-6-original.jpg" />
+    <Content Include="images\footer-gallery-7-original.jpg" />
+    <Content Include="images\footer-gallery-8-original.jpg" />
+    <Content Include="images\footer-gallery-9-original.jpg" />
+    <Content Include="images\footer-modern-gallery-1-100x100.jpg" />
+    <Content Include="images\footer-modern-gallery-2-100x100.jpg" />
+    <Content Include="images\footer-modern-gallery-3-100x100.jpg" />
+    <Content Include="images\footer-modern-gallery-4-100x100.jpg" />
+    <Content Include="images\footer-modern-gallery-5-100x100.jpg" />
+    <Content Include="images\footer-modern-gallery-6-100x100.jpg" />
+    <Content Include="images\footer-modern-gallery-7-100x100.jpg" />
+    <Content Include="images\footer-modern-gallery-8-100x100.jpg" />
+    <Content Include="images\footer-modern-gallery-9-100x100.jpg" />
+    <Content Include="images\gmap_marker.png" />
+    <Content Include="images\gmap_marker_active.png" />
+    <Content Include="images\ie8-panel\warning_bar_0000_us.jpg" />
+    <Content Include="images\isotope-loader.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo-default-355x118.png" />
+    <Content Include="images\monstroid_02.jpg" />
+    <Content Include="images\monstroid_big_02.jpg" />
+    <Content Include="images\preloader.gif" />
+    <Content Include="images\preloader.png" />
+    <Content Include="images\services-bg-1920-180.jpg" />
+    <Content Include="images\testimonials-1-68x68.jpg" />
+    <Content Include="images\testimonials-2-68x68.jpg" />
+    <Content Include="images\testimonials-3-68x68.jpg" />
+    <Content Include="images\testimonials-4-68x68.jpg" />
+    <Content Include="images\typography-1-340x250.jpg" />
+    <Content Include="images\typography-1-770x430.jpg" />
+    <Content Include="images\video-play.png" />
+    <Content Include="images\video-preview-1-570x416.jpg" />
+    <Content Include="images\vimeo-play.png" />
+    <Content Include="images\youtube-play.png" />
+    <Content Include="images\_blank.png" />
     <Content Include="Inicio.aspx" />
+    <Content Include="JS\core.min.js" />
+    <Content Include="JS\locationpicker.jquery.js" />
+    <Content Include="JS\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -84,8 +138,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bat\rd-mailform.config.json" />
-    <Content Include="bat\rd-mailform.tpl" />
+    <Content Include="fonts\fl-bigmug-line.eot" />
+    <Content Include="fonts\fl-bigmug-line.ttf" />
+    <Content Include="fonts\fl-bigmug-line.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\lg.eot" />
+    <Content Include="fonts\lg.ttf" />
+    <Content Include="fonts\lg.woff" />
+    <Content Include="fonts\materialdesignicons-webfont.eot" />
+    <Content Include="fonts\materialdesignicons-webfont.ttf" />
+    <Content Include="fonts\materialdesignicons-webfont.woff" />
+    <Content Include="fonts\materialdesignicons-webfont.woff2" />
+    <Content Include="images\images.zip" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -94,9 +162,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bat\phpmailer\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
